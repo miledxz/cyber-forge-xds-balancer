@@ -1,6 +1,6 @@
 module github.com/zedGGs/cyber-forge-xds-balancer
 
-go 1.21.7
+go 1.21
 
 require (
 	github.com/envoyproxy/go-control-plane v0.12.0
