@@ -19,8 +19,7 @@ var (
 	port                   uint
 	basePort               uint
 	mode                   string
-
-	nodeID string
+	nodeID                 string
 )
 
 func init() {
