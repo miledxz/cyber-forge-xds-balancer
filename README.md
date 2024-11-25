@@ -26,12 +26,21 @@ spec:
     - address: 127.0.0.1
       port: 9102
 ```
+
 This configuration initializes a listener on port 9000, routes requests to an endpoint cluster named echo-cluster, and specifies two backend services on ports 9101 and 9102.
 
-## Cleaning Up
+## Running Sample Applications
+
+To test the xDS server functionality, you can deploy lightweight echo servers as backend services. Use Docker to spin up these sample apps, which act as endpoints:
+```
+docker run -d --rm --name=echo9100 -p 9100:8080 miledxz/echo-server echo-server --echotext=Sample-Endpoint!
+docker run -d --rm --name=echo9101 -p 9101:8080 miledxz/echo-server echo-server --echotext=Sample-Endpoint!
+```
+
+## Stopping Sample Applications
 
 Stop all the sample endpoints created in the previous step:
 ```
-docker stop echo-9100
-docker stop echo-9101
+docker stop echo9100
+docker stop echo9101
 ```
