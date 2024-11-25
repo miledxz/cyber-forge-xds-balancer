@@ -6,10 +6,10 @@ import (
 
 	"github.com/envoyproxy/go-control-plane/pkg/cache/v3"
 	serverv3 "github.com/envoyproxy/go-control-plane/pkg/server/v3"
+	"github.com/miledxz/cyber-forge-xds-balancer/internal/processor"
+	"github.com/miledxz/cyber-forge-xds-balancer/internal/server"
+	"github.com/miledxz/cyber-forge-xds-balancer/internal/watcher"
 	log "github.com/sirupsen/logrus"
-	"github.com/zedGGs/cyber-forge-xds-balancer/internal/processor"
-	"github.com/zedGGs/cyber-forge-xds-balancer/internal/server"
-	"github.com/zedGGs/cyber-forge-xds-balancer/internal/watcher"
 )
 
 var (

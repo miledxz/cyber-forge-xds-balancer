@@ -2,7 +2,7 @@ package xdscache
 
 import (
 	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
-	"github.com/zedGGs/cyber-forge-xds-balancer/internal/resources"
+	"github.com/miledxz/cyber-forge-xds-balancer/internal/resources"
 )
 
 type XDSCache struct {

@@ -1,4 +1,4 @@
-module github.com/zedGGs/cyber-forge-xds-balancer
+module github.com/miledxz/cyber-forge-xds-balancer
 
 go 1.21
 

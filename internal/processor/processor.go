@@ -9,15 +9,15 @@ import (
 
 	"github.com/envoyproxy/go-control-plane/pkg/resource/v3"
 
-	"github.com/zedGGs/cyber-forge-xds-balancer/internal/resources"
+	"github.com/miledxz/cyber-forge-xds-balancer/internal/resources"
 
 	"github.com/envoyproxy/go-control-plane/pkg/cache/types"
 
-	"github.com/zedGGs/cyber-forge-xds-balancer/internal/xdscache"
+	"github.com/miledxz/cyber-forge-xds-balancer/internal/xdscache"
 
 	"github.com/envoyproxy/go-control-plane/pkg/cache/v3"
+	"github.com/miledxz/cyber-forge-xds-balancer/internal/watcher"
 	"github.com/sirupsen/logrus"
-	"github.com/zedGGs/cyber-forge-xds-balancer/internal/watcher"
 )
 
 type Processor struct {

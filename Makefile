@@ -1,4 +1,4 @@
-MODULE = github.com/zedGGs/cyber-forge-xds-balancer
+MODULE = github.com/miledxz/cyber-forge-xds-balancer
 
 GO_BUILD_VARS = \
 	github.com/projectcontour/contour/internal/build.Version=${BUILD_VERSION} \
